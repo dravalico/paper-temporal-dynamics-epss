@@ -9,15 +9,20 @@ To be able to run the code, please refer to the following section.
 
 ## Run the code
 
-1. Clone the repository (requires [`git`](https://git-scm.com/)) and move into the project directory:
+1. Clone the repository and move into the project directory:
 
     ```bash
     git clone https://github.com/dravalico/paper-temporal-dynamics-epss
     cd paper-temporal-dynamics-epss
     ```
 
-2. Download the [zipped dataset hosted on Zenodo](https://doi.org/10.5281/zenodo.15807706)
-3. **Extract the archive and place its contents in the root directory of the project**
+2. Download the [zipped dataset hosted on Zenodo](https://doi.org/10.5281/zenodo.15807706) or simply run
+
+    ```bash
+    wget https://zenodo.org/records/15807706/files/datasets.zip
+    ```
+
+3. **Extract the archive: its content must be located in the root directory of the project**
 4. Check the following prerequisites before starting
 
 ### Prerequisites

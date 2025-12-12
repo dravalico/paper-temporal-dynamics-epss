@@ -1,15 +1,13 @@
 # Analysing the Temporal Dynamics of the Exploit Prediction Scoring System (EPSS)
 
-This repository contains two Jupyter notebooks used for the analysis presented in our paper. In summary, the first notebook focuses on EPSS, while the second addresses National Vulnerability Database (NVD) analysis.
+This repository contains two Jupyter notebooks used for the analysis presented in the paper "Analysing the Temporal Dynamics of the Exploit Prediction Scoring Systems (EPSS)". Both notebooks are already executed and include all output figures, exactly as shown in the paper. In addition, they contain several other plots and exploratory visualizations that go beyond what is included in the manuscript.
 
-Both notebooks are already executed and include all output figures, exactly as shown in the paper. In addition, they contain several other plots and exploratory visualizations that go beyond what is included in the manuscript.
+- [1_epss3_current.ipynb](1_epss3_current.ipynb): contains analysis performed on EPSS and the combination with CVSS and CPE as well as KEV
+- [2_cvss_cpe_21-24.ipynb](2_cvss_cpe_21-24.ipynb): focuses on CVE's metadata (i.e., CVSS and CPE) availability and readiness
 
-## Contents
+To be able to run the code, please refer to the following section.
 
-- [1_epss3_current.ipynb](1_epss3_current.ipynb): it contains analysis performed on EPSS and the combination with CVSS and CPE as well as KEV
-- [2_cvss_cpe_21-24.ipynb](2_cvss_cpe_21-24.ipynb): it focuses on CVE's metadata (i.e., CVSS and CPE) availability and readiness
-
-## Rerun / modify the analysis
+## Run the code
 
 1. Clone the repository (requires [`git`](https://git-scm.com/)) and move into the project directory:
 
@@ -20,6 +18,7 @@ Both notebooks are already executed and include all output figures, exactly as s
 
 2. Download the [zipped dataset hosted on Zenodo](https://doi.org/10.5281/zenodo.15807706)
 3. **Extract the archive and place its contents in the root directory of the project**
+4. Check the following prerequisites before starting
 
 ### Prerequisites
 
@@ -35,4 +34,4 @@ Both notebooks are already executed and include all output figures, exactly as s
    ```
 
    Please note that without LaTeX, some plot titles or axis labels may not display correctly.
-- To install the required Python packages, simply run the first cell of each notebook, which contains the necessary `pip` commands
+- All code was developed using Python packages in a specific version, listed in the second cell of each notebook; to run the code without having to modify it, simply execute that cell

@@ -16,7 +16,7 @@ To be able to run the code, please refer to the following section.
     cd paper-temporal-dynamics-epss
     ```
 
-2. Download the [zipped dataset hosted on Zenodo](https://doi.org/10.5281/zenodo.15807706) or simply run
+2. Download the [zipped dataset hosted on Zenodo](https://doi.org/10.5281/zenodo.20523695) or simply run
 
     ```bash
     wget https://zenodo.org/records/15807706/files/datasets.zip
